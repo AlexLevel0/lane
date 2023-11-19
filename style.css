@@ -1,0 +1,178 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    letter-spacing: 0;
+    font-family: "Kiwi Maru", serif;
+    font-family: "Zen Maru Gothic", sans-serif;
+    background-color: #FFFCE9;
+    }
+    
+    
+    header{
+    background-color: rgb(162, 236, 243);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    }
+    
+    header h2{
+    padding: 10px;
+    }
+    
+    
+    main{
+    margin-top: 100px;
+    }
+    
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    li{
+    padding: 10px;
+    list-style: none;
+    }
+    
+    ul{
+    display: flex;
+    }
+    
+    h3{
+    text-align: center;
+    margin: 5px;
+    }
+    
+    .icon{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    border: 3px darkblue solid;
+    border-radius: 50%;
+    }
+    
+    p{
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+    .sns{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    }
+    
+    
+    .sns img{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    margin: 10px;
+    }
+    
+    .illust{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    }
+    
+    .illust img{
+    margin: 10px;
+    width: 100px;
+    }
+    
+    #top p{
+    text-align: center;
+    }
+    
+    #top, #profile, #illustration, #music{
+    padding-top: 120px;
+    }
+
+.big-illust{
+    position: fixed;
+    display: block;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+.big-illust img{
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-close{
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 50px;
+    user-select: none;
+}
+
+.image-left{
+    position: fixed;
+    top: 200px;
+    left: 0;
+    color: white;
+    font-size: 50px;
+    user-select: none;
+}
+
+.image-right{
+    position: fixed;
+    top: 200px;
+    right: 0;
+    color: white;
+    font-size: 50px;
+    user-select: none;
+}
+
+.dark{
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+video{
+    width: 300px;
+    margin: 10px auto;
+    display: block;
+}
+
+@media screen and (min-width:768px) { 
+    
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+#top img{
+    width: 320px;
+    margin: 0 auto;
+    display: block;
+}
+
+footer{
+    background-color: rgb(48, 58, 55);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
