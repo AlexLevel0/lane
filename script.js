@@ -8,7 +8,7 @@ $(".dark").hide();
 
 for(let i = 0; i <= illust_num; i++){
 $(".illust img").eq(i).on("click", function(){
-    $(".big-illust img").attr("src", `img/${i}.png`);
+    $(".big-illust img").attr("src", `${i}.png`);
     $(".big-illust").show();
     $(".dark").show();
     now_illust = i
@@ -25,7 +25,7 @@ $(".image-right").on("click", function(){
         now_illust = 0
     }
     else{ now_illust++}
-    $(".big-illust img").attr("src", `img/${now_illust}.png`);
+    $(".big-illust img").attr("src", `${now_illust}.png`);
 })
 
 $(".image-left").on("click", function(){
@@ -33,7 +33,7 @@ $(".image-left").on("click", function(){
         now_illust = illust_num
     }
     else{ now_illust--}
-    $(".big-illust img").attr("src", `img/${now_illust}.png`);
+    $(".big-illust img").attr("src", `${now_illust}.png`);
 })
 
 })
